@@ -1,0 +1,18 @@
+:root,
+:root.light {
+  --background-color: #eee;
+  --text-color: #333;
+}
+.dark {
+  --background-color: #333;
+  --text-color: #eee;
+}
+
+$background-color: var(--background-color);
+$text-color: var(--text-color);
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
