@@ -14,6 +14,11 @@
   --text-color: #b9d9eb;
 }
 
+.green {
+  --background-color: #4b5320;
+  --text-color: #dadd98;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background-color);

@@ -4,29 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Cupcake light</title>
+    <title>Cupcake blue</title>
   </head>
   <body>
-    <div class="form-switch text-center my-5">
-      <input type="checkbox" id="mode" class="form-check-input" />
-      <label for="mode" class="form-check-label"></label>
+    <div class="container my-4">
+      <button class="btn btn-dark btn-toggle">toggle dark-mode</button>
+      <button class="btn btn-light">toggle light-mode</button>
+      <button class="btn btn-primary btn-blue">toggle blue-mode</button>
+      <button class="btn btn-success btn-green">toggle green-mode</button>
+
+      <div class="row my-4">
+        <div class="col-md-6">
+          <img src="dark-donut.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <h1>Cupcake ipsum</h1>
+          <p>
+            Cupcake ipsum dolor sit amet jelly-o cookie bonbon. Pie chocolate
+            marzipan muffin jelly beans shortbread lollipop sesame snaps muffin.
+            Biscuit candy canes cotton candy gummies sweet roll. Lemon drops
+            bear claw biscuit soufflé cake. Sweet roll croissant biscuit sesame
+            snaps shortbread icing danish fruitcake. Ice cream liquorice donut
+            jelly beans gummi bears croissant. Toffee marshmallow sweet
+            cheesecake jelly-o. Fruitcake powder topping halvah chocolate bar
+            sugar plum gingerbread liquorice. Cookie caramels gingerbread powder
+            carrot cake cake shortbread caramels tootsie roll. Cupcake bonbon
+            toffee cotton candy jelly-o chupa chups chupa chups dessert
+            liquorice. Bonbon macaroon chocolate bar pudding caramels dessert
+            jelly. Brownie sesame snaps apple pie cookie wafer oat cake jelly
+            beans cotton candy sweet.
+          </p>
+        </div>
+      </div>
     </div>
-    <h1>Cupcake ipsum</h1>
-    <p>
-      Cupcake ipsum dolor sit amet jelly-o cookie bonbon. Pie chocolate marzipan
-      muffin jelly beans shortbread lollipop sesame snaps muffin. Biscuit candy
-      canes cotton candy gummies sweet roll. Lemon drops bear claw biscuit
-      soufflé cake. Sweet roll croissant biscuit sesame snaps shortbread icing
-      danish fruitcake. Ice cream liquorice donut jelly beans gummi bears
-      croissant. Toffee marshmallow sweet cheesecake jelly-o. Fruitcake powder
-      topping halvah chocolate bar sugar plum gingerbread liquorice. Cookie
-      caramels gingerbread powder carrot cake cake shortbread caramels tootsie
-      roll. Cupcake bonbon toffee cotton candy jelly-o chupa chups chupa chups
-      dessert liquorice. Bonbon macaroon chocolate bar pudding caramels dessert
-      jelly. Brownie sesame snaps apple pie cookie wafer oat cake jelly beans
-      cotton candy sweet.
-    </p>
-    <script src="colorswitch.js"></script>
+
+    <script src="switch.js"></script>
   </body>
 </html>

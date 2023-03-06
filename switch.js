@@ -2,6 +2,7 @@
 const btn = document.querySelector(".btn-toggle");
 const btnLight = document.querySelector(".btn-light");
 const btnBlue = document.querySelector(".btn-blue");
+const btnGreen = document.querySelector(".btn-green");
 
 // Listen for a click on the button
 btn.addEventListener("click", function () {
@@ -19,4 +20,9 @@ btnLight.addEventListener("click", function () {
 btnBlue.addEventListener("click", function () {
   document.body.className = "";
   document.body.classList.add("blue");
+});
+
+btnGreen.addEventListener("click", function () {
+  document.body.className = "";
+  document.body.classList.add("green");
 });
