@@ -4,3 +4,5 @@
 
 - using css variables and scss to set background and text color
 - vscode extension: live sass compiler to transpile scss into css
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/spereverde/minimal-dark-mode)
