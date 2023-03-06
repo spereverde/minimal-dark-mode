@@ -1,5 +1,5 @@
 :root,
-:root.light {
+.light {
   --background-color: #eee;
   --text-color: #333;
 }
@@ -7,6 +7,11 @@
 .dark {
   --background-color: #333;
   --text-color: #eee;
+}
+
+.blue {
+  --background-color: #5072a7;
+  --text-color: #b9d9eb;
 }
 
 body {
